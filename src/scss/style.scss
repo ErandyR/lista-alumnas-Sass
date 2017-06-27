@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'queries';
+* {
+    margin: 0 auto;
+}
+
+header {
+    background-color: $color-accent;
+    height: $alto-header;
+    h1 {
+        color: white;
+        padding-top: 2%;
+    }
+}
+
+.espacioTop {
+    padding-top: 2%;
+}
+
+.fotter {
+    width: 100%;
+    background-color: $color-contrast;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 115%;
+}

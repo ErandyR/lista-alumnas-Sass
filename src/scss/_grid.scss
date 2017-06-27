@@ -1,0 +1,126 @@
+/*GLOBAL*/
+
+@media (min-width: 780px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        ;
+    }
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .row::before,
+    .row::after {
+        content: " ";
+        display: table;
+    }
+    .row::after {
+        clear: both;
+    }
+    [class*="col-"] {
+        min-height: 8px;
+        padding: 12px;
+        float: left;
+    }
+    .col-md-1 {
+        /* (1/12)*100 */
+        width: 8.333%;
+    }
+    .col-md-2 {
+        /* (2/12)*100 */
+        width: 16.666%;
+    }
+    .col-md-3 {
+        /* (3/12)*100 */
+        width: 25%;
+    }
+    .col-md-4 {
+        /* (4/12)*100 */
+        width: 33.333%;
+    }
+    .col-md-5 {
+        /* (5/12)*100 */
+        width: 41.666%;
+    }
+    .col-md-6 {
+        /* (6/12)*100 */
+        width: 50%;
+    }
+    .col-md-7 {
+        /* (7/12)*100 */
+        width: 58.333%;
+    }
+    .col-md-8 {
+        /* (8/12)*100 */
+        width: 66.666%;
+    }
+    .col-md-12 {
+        /* (12/12)*100 */
+        width: 100%;
+    }
+}
+@media (max-width: 779px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        ;
+    }
+    .container {
+        width: 100%;
+        max-width: 779px;
+        margin: 0 auto;
+    }
+    .row::before,
+    .row::after {
+        content: " ";
+        display: table;
+    }
+    .row::after {
+        clear: both;
+    }
+    [class*="col-"] {
+        min-height: 8px;
+        padding: 12px;
+        float: left;
+    }
+    .col-xs-1 {
+        /* (1/12)*100 */
+        width: 8.333%;
+    }
+    .col-xs-2 {
+        /* (2/12)*100 */
+        width: 16.666%;
+    }
+    .col-xs-3 {
+        /* (3/12)*100 */
+        width: 25%;
+    }
+    .col-xs-4 {
+        /* (4/12)*100 */
+        width: 33.333%;
+    }
+    .col-xs-5 {
+        /* (5/12)*100 */
+        width: 41.666%;
+    }
+    .col-xs-6 {
+        /* (6/12)*100 */
+        width: 50%;
+    }
+    .col-xs-7 {
+        /* (7/12)*100 */
+        width: 58.333%;
+    }
+    .col-xs-8 {
+        /* (8/12)*100 */
+        width: 66.666%;
+    }
+    .col-xs-12 {
+        /* (12/12)*100 */
+        width: 100%;
+    }
+}
